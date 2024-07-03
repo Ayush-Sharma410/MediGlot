@@ -107,7 +107,7 @@
 	const urlParams = new URLSearchParams(window.location.search);
 	let ifMusic = urlParams.get('music') == 'true';
 
-	let dataDirectory = "data/preturbing/";
+	let dataDirectory = "data/t-SNE/";
 	let firstFile = true; // We want this to be false after loading the first file so that the points dont shift around
 
 	// ** Set of variables from deposit_reader.py, important for coordiante conversion **
@@ -148,7 +148,7 @@
 	var datasetList = ["data/Umap_demo","data/medicines/","data/demo/","data/medicines-d","data/medicines-e","data/quasi_random"];
 
 	//var datasetList = ["data/global_1/", "data/global_2/", "data/music_demo/", "data/Lautonomy_Data/"];
-	let traceDataDirectory = "data/preturbing/"; // CONTROLS WHICH DATASET TO LOAD WITH!!
+	let traceDataDirectory = "data/t-SNE/"; // CONTROLS WHICH DATASET TO LOAD WITH!!
 	var dataTraceController;
 
 	// change initial dataset if music == true, modified for quick access to music embedding
@@ -881,20 +881,20 @@
 
 							// Search bar
 							searchFolder.add(GUIparam, "textField").name('Search Term').onFinishChange(function (searchedTerm) {
-								console.log(searchedTerm);
-								console.log("allPoints are - ",allPoints);
-								console.log("current anchor list", anchorList);
-								const anchorResults = fuzzysort.go(searchedTerm, anchorList, {threshold:0.0, all: true, allowTypo: false});
-								const zoomResults = fuzzysort.go(searchedTerm, allPoints, {threshold:0.0, all: true, allowTypo: false});
-								console.log("the zoom results are",zoomResults)
-								searchAnchorList = anchorResults.map(x => x.target);
-								searchZoomList = zoomResults.map(x => x.target);
-								// searchFolder.remove(chooseAnchorController);
-								// searchFolder.remove(zoomController);
-								if (searchedTerm === "") {
-									searchAnchorList = anchorList;
-									searchZoomList = allPoints.slice(0,100);
-								}
+								// console.log(searchedTerm);
+								// console.log("allPoints are - ",allPoints);
+								// console.log("current anchor list", anchorList);
+								// const anchorResults = fuzzysort.go(searchedTerm, anchorList, {threshold:0.0, all: true, allowTypo: false});
+								// const zoomResults = fuzzysort.go(searchedTerm, allPoints, {threshold:0.0, all: true, allowTypo: false});
+								// console.log("the zoom results are",zoomResults)
+								// searchAnchorList = anchorResults.map(x => x.target);
+								// searchZoomList = zoomResults.map(x => x.target);
+								// // searchFolder.remove(chooseAnchorController);
+								// // searchFolder.remove(zoomController);
+								// if (searchedTerm === "") {
+								// 	searchAnchorList = anchorList;
+								// 	searchZoomList = allPoints.slice(0,100);
+								// }
 								// zoomController = searchFolder.add(GUIparam, 'zoomPoint', searchZoomList.slice(0, 100)).name('Zoom to Point').onChange(function(term){
 								// 	var zoomTerm = term.split(':')[0];
 								// 	zoomedTerm = zoomTerm;
@@ -930,23 +930,25 @@
 								// 		console.timeEnd("onChange of Search Anchor bar")
 								// 	});
 								// });
-								updateDropdown(zoomController, searchZoomList);
-								updateDropdown(chooseAnchorController, searchAnchorList);
-								let zoomResultsStrings = []
-								for (let i = 0; i < zoomResults.length; i++) {
-									zoomResultsStrings.push(zoomResults[i].target);
-								}
-								console.log("zoomResultsStrings are -",zoomResultsStrings)
+								
+								// updateDropdown(chooseAnchorController, searchAnchorList);
+								// let zoomResultsStrings = []
+								// for (let i = 0; i < zoomResults.length; i++) {
+								// 	zoomResultsStrings.push(zoomResults[i].target);
+								// }
+								// console.log("zoomResultsStrings are -",zoomResultsStrings)
 
-
+								let saltResults = []
 								for (let i = 0; i < maxParticleCount; i++) {
-									if (particleData[i].includes(searchedTerm)) 
- 									{		
-										
-										particleColor[i * 3] = 255;       
-										particleColor[i * 3 + 1] = 0;     
-										particleColor[i * 3 + 2] = 0; 	
-										particleOpacity[i] = 1.0;
+									console.log(particleData[i]);
+									let temp = particleData[i].name.split(" ");
+									if (temp.includes(searchedTerm)) {	
+										// console.log('founnd a match')	
+										saltResults.push(particleData[i].name);
+										particleColor[ i * 3 ] = zoomedPoint.rgb()[0] / 255;
+										particleColor[ i * 3 + 1 ] = zoomedPoint.rgb()[1] / 255;
+										particleColor[ i * 3 + 2] = zoomedPoint.rgb()[2] / 255;
+										particleOpacity[i] = 100.0;
 										
 									}
 									else{
@@ -954,7 +956,9 @@
 										particleColor[ i * 3 + 1 ] = 0.0;
 										particleColor[ i * 3 + 2] = 0.0;
 										particleOpacity[i] = 0.0;
-									}}
+									}
+								}
+								updateDropdown(zoomController, saltResults);
 							});
 
 							// Jump to point dropdown
