@@ -107,7 +107,7 @@
 	const urlParams = new URLSearchParams(window.location.search);
 	let ifMusic = urlParams.get('music') == 'true';
 
-	let dataDirectory = "data/t-SNE/";
+	let dataDirectory = "data/gemini/Umap/";
 	let firstFile = true; // We want this to be false after loading the first file so that the points dont shift around
 
 	// ** Set of variables from deposit_reader.py, important for coordiante conversion **
@@ -145,10 +145,10 @@
 	var anchorList = ["0: also_ADV", "918: right_NOUN"];
 	var searchAnchorList = ["0: also_ADV", "918: right_NOUN"];
 	var searchZoomList = ["0: also_ADV", "918: right_NOUN"];
-	var datasetList = ["data/Umap_demo","data/medicines/","data/demo/","data/medicines-d","data/medicines-e","data/quasi_random"];
+	var datasetList = ["data\gemini\Umap"];
 
 	//var datasetList = ["data/global_1/", "data/global_2/", "data/music_demo/", "data/Lautonomy_Data/"];
-	let traceDataDirectory = "data/t-SNE/"; // CONTROLS WHICH DATASET TO LOAD WITH!!
+	let traceDataDirectory = "data/gemini/Umap/"; // CONTROLS WHICH DATASET TO LOAD WITH!!
 	var dataTraceController;
 
 	// change initial dataset if music == true, modified for quick access to music embedding
