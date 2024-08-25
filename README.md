@@ -1,47 +1,44 @@
-# Mediglot: Unveiling Medicine Patterns:3D Clustering with Polyphy/Polyglot
+# Mediglot: 3D Medicinal Clustering with Polyphy/Polyglot
 
 [![](image/mediglot.png)](image/gemini-pro.png)  
 
-**Link to app**: [https://polyphyhub.github.io/PolyGlot/](https://polyphyhub.github.io/PolyGlot/)    
+**Link to app**: [https://ayush-sharma410.github.io/MediGlot/](https://ayush-sharma410.github.io/MediGlot/)    
 This project is an extension of the Polyglot app, as developed by [Hongwei (Henry) Zhou](https://normand-1024.github.io) as part of his [master's thesis](https://escholarship.org/uc/item/6zj1r9ch), and is now a part of the PolyPhy toolkit of network-inspired data science tools (for background on the PolyPhy hub, see [here](https://github.com/PolyPhyHub)). The intention behind Polyglot is to give users a hands-on experience going beyond the standard Euclidean measure of similarity and exploring a slime-mold inspired measure of similarity, see below for more details!
 
-Polyglot is a web application for visualizing 3D language embeddings. Language embeddings are typically high-dimensional vector representations of the syntactic and semantic content of words. By reducing the dimensionality of these representations to 3D using [UMAP](https://arxiv.org/abs/1802.03426), users are able to explore a 3D point cloud of words. Beyond navigating the 3D point cloud, the application also allows users to view the exploration result of the exciting and recent [Monte-Carlo Physarum Machine (MCPM)](https://arxiv.org/abs/2009.02459) metric. The algorithm simulates the self-organizing nature of the _Physarum polycephalum_ slime mold. This particular organism has been shown to discover optimal transport networks on its own, including an instance where it replicated the structure of the [Japanese railway system](https://www.science.org/doi/10.1126/science.1177894). The entire network is thus colored based on its MCPM similarity to the current "anchor point". The anchor point is the point from which all MCPM similarity scores are computed with respect to (e.g., if the anchor point is "football", the network is colored such that words with high MCPM similarity to "football" are brighter and dissimilar words are darker). 
+Mediglot is a web application for visualizing 3D medicinal embeddings. Medcinal embeddings are  high-dimensional vector representations of the salts present inside a particular medicine. By reducing the dimensionality of these representations to 3D using [UMAP](https://arxiv.org/abs/1802.03426), users are able to explore a 3D point cloud of medicines. Beyond navigating the 3D point cloud, the application also allows users to view the exploration result of the exciting and recent [Monte-Carlo Physarum Machine (MCPM)](https://arxiv.org/abs/2009.02459) metric. The algorithm simulates the self-organizing nature of the _Physarum polycephalum_ slime mold. This particular organism has been shown to discover optimal transport networks on its own, including an instance where it replicated the structure of the [Japanese railway system](https://www.science.org/doi/10.1126/science.1177894). The entire network is thus colored based on its MCPM similarity to the current "anchor point". The anchor point is the point from which all MCPM similarity scores are computed with respect to (e.g., if the anchor point is "dolo", the network is colored such that words with high MCPM similarity to "dolo" are brighter and dissimilar words are darker). 
 
-The dataset displayed is the [Gensim Continuous Skipgram result of Wikipedia Dump of February 2017 (296630 words)](http://vectors.nlpl.eu/repository/). Hover over any point to examine the word. The toggle _Show More_ displays all nearby tokens, as opposed to a single word. One can switch between examining slime exploration result and part-of-speech distributions using _Color Mode_. The four sliders (_Color Gradient_, _Lowest Weight_, _Lowest Connect_, _Opacity Fading_) can be used to customize the visualization of the slime results. Specifically, _Lowest Connect_ is particularly helpful to declutter the scatter plot view.
 
 # Background
-For context, Polyglot follows this methodology:
-1. Given a set of words, use an embedding model (such as Word2Vec, BERT, etc.) to generate a set of high dimensional points associated with each word.
-2. Use a dimensionality reduction method (such as UMAP) to reduce the dimensionality of each word-vector point to 3 dimensions
-3. Use the novel MCPM metric (Monte Carlo Physarum Machine) to compute the similarities between a set of anchor points and the rest of the point cloud.
-4. The web app then displays the point cloud of 3-dimensional embeddings, but uses _coloring_ to indicate the level of MCPM similarity each word has with the anchor point (e.g, if the anchor point is the word “dog”, the rest of the point cloud is colored such that words identified as similar to “dog” by the MCPM metric are brighter, whereas dissimilar words are darker.
+For context, Mediglot follows this methodology:
+1. We take a diverse dataset of all the popular medicines found on the internet, use an embedding model (such as Word2Vec, BERT, etc.) or an LLM model (such as LLaMa3.1, Gemini, Phi, etc.) to generate a set of high dimensional points associated with each medicine name and it's salts.
+2. Use a dimensionality reduction method (such as UMAP or T-SNE) to reduce the dimensionality of each word-vector point to 3 dimensions
+3. Use the novel MCPM metric (Monte Carlo Physarum Machine) to compute the similarities between a set of anchor points (in this case medicines selected using quasi random sampling) and the rest of the point cloud.
+4. The web app then displays the point cloud of 3-dimensional embeddings of medicines such that the medicines having similar salt compositions can be seen clustered together (for e.g., if we search for a salt named "paracetamol" all the medincines containing "paracetamol" turns green and rest of the medicines dissapears).[![](image/paracetamol.png)](image/gemini-pro.png)
 
-# Features
-1. Press and hold <kbd>Shift</kbd> to see only the anchor points
+# Models
+## Gemini-Pro
+1. Used Gemini API to get the embeddings for 55,000 unique medicines.
+2. Used UMAP to reduce the dimentionality of embeddings to 3.
+3. Used the generated embeddings to make clusters of medicines having similar salts and compositions.
+4. Calculated the euclidean distances between the points to get the final point cloud.  [![](image/gemini.png)](image/gemini-pro.png)
 
-2. Double click any anchor point (yellow point) to change the anchor (you will see the rest of the point cloud change color).
-   
-3. Fuzzy-text search bar and “jump to point” feature for smoother navigation
-[![](gsoc_images/search_feat.png)](gsoc_images/search_feat.png)
-*Search feature. The point we have jumped to is highlighted in green.*
+## LLaMa3.1 
+1. Used LLaMa3.1 to generate the embeddings for 55,000 unique medicines.
+2. Used UMAP to reduce the dimentionality of embeddings to 3.
+3. Used the generated embeddings to make clusters of medicines having similar salts and compositions.
+4. Calculated the euclidean distances between the points to get the final point cloud.  [![](image/gemini-pro.png)](image/gemini-pro.png)
 
-4. Annotation feature for coloring and making notes on subsections of the point cloud (+ ability to export annotations). A brush size selector is available and annotations can be deleted.
-[![](gsoc_images/annotat_feat.png)](gsoc_images/annotat_feat.png)
-*Annotation feature. The annotated points are in green.*
+## Word2Vec
+1. Used Word2Vec to generate the embeddings of salts associated with each medicine for a dataset of  55,000 unique medicines.
+2. Summed up and normalized the vectors of all the salts associated with each medicine to get the final embeddings for each medicine
+2. Used UMAP to reduce the dimentionality of embeddings to 3.
+3. Used the generated embeddings to make clusters of medicines having similar salts and compositions.
+4. Calculated the euclidean distances between the points to get the final point cloud.  [![](image/word2vec.png)](image/gemini-pro.png)
 
-5. Novel timeline feature in which users can track the importance of certain words over time by watching the change in size of points (computes the IF-IDF metric for a word across all documents in a given year). Uses linear interpolation for years which do not have an explicit importance score.
-[![](gsoc_images/timeline_feat.png)](gsoc_images/timeline_feat.png)
-*Timeline feature. Yellow points are those for which timeline importance is computed. Size is relative to importance.*
 
-6. A grayscale mode
-[![](gsoc_images/grascale_feat.png)](gsoc_images/grascale_feat.png)
 
-7. An industrial collaboration with UK startup Lautonomy, where we have pre-processed and entered their data into Polyglot
-[![](gsoc_images/lautonomy_data.png)](gsoc_images/lautonomy_data.png)
-*Preview of Lautonomy’s data. Coloring is based on the 3D Euclidean metric (hence the radial coloring). Data not visible in public repo.*
-
-## Authors
-This version of Polyglot was extended as part of Kiran Deol's 2023 Google Summer of Code project, mentored by [Oskar Elek](http://elek.pub) and [Jasmine Otto](https://jazztap.github.io) and is hosted as part of PolyPhy hub of bio-inspired data science tools.
+# Authors
+MediGlot is extended as part of Ayush Sharma's 2024 Google Summer of Code project, mentored by [Oskar Elek](http://elek.pub) and [Kiran Deol](https://www.linkedin.com/in/kiran-deol/).
 
 This web visualization tool was originally created by a team of researchers at University of California, Santa Cruz, Dept. of Computational Media:
 - [Hongwei (Henry) Zhou](https://normand-1024.github.io/)
