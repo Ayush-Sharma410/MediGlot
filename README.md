@@ -1,6 +1,6 @@
 # Mediglot: Unveiling Medicine Patterns:3D Clustering with Polyphy/Polyglot
 
-[![](image/gemini.png)](image/gemini-pro.png)  
+[![](image/mediglot.png)](image/gemini-pro.png)  
 
 **Link to app**: [https://polyphyhub.github.io/PolyGlot/](https://polyphyhub.github.io/PolyGlot/)    
 This project is an extension of the Polyglot app, as developed by [Hongwei (Henry) Zhou](https://normand-1024.github.io) as part of his [master's thesis](https://escholarship.org/uc/item/6zj1r9ch), and is now a part of the PolyPhy toolkit of network-inspired data science tools (for background on the PolyPhy hub, see [here](https://github.com/PolyPhyHub)). The intention behind Polyglot is to give users a hands-on experience going beyond the standard Euclidean measure of similarity and exploring a slime-mold inspired measure of similarity, see below for more details!
