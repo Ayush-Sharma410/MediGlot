@@ -38,7 +38,7 @@ For context, Mediglot follows this methodology:
 
 
 # Authors
-MediGlot is extended as part of Ayush Sharma's(https://www.linkedin.com/in/ayush-sharma-502256201/) 2024 Google Summer of Code project, mentored by [Oskar Elek](http://elek.pub) and [Kiran Deol](https://www.linkedin.com/in/kiran-deol/).
+MediGlot is extended as part of [Ayush Sharma's](https://www.linkedin.com/in/ayush-sharma-502256201/) 2024 Google Summer of Code project, mentored by [Oskar Elek](http://elek.pub) and [Kiran Deol](https://www.linkedin.com/in/kiran-deol/).
 
 This web visualization tool was originally created by a team of researchers at University of California, Santa Cruz, Dept. of Computational Media:
 - [Hongwei (Henry) Zhou](https://normand-1024.github.io/)
