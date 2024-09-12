@@ -1,0 +1,135 @@
+Neutral Citation Number: [2024] UKUT 260 (LC)
+Case No: LC-2024-91
+IN THE UPPER TRIBUNAL (LANDS CHAMBER)
+AN APPEAL AGAINST A DECISION OF THE FIRST-TIER TRIBUNAL (PROPERTY CHAMBER)
+FTT REF: CHI/45UB/PHI/2023/0166
+29 August 2024
+TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007
+AN APPEAL FROM A DECISION OF THE FIRST-TIER TRIBUNAL (PROPERTY CHAMBER)
+PARK HOMES – PITCH FEE REVIEW – inaccuracy in the pitch fee review notice and form – validity of review notice and form – effect of minor error where there is no failure to comply with the statutory requirements – effect of incorrect calculation of the pitch fee
+BETWEEN:
+MARTIN HAMPTON
+Appellant
+-and-
+THE BERKELEY LEISURE GROUP LIMITED
+Respondent
+36 Cauldron Barn Farm Park,
+Cauldron Barn Road,
+Swanage,
+Dorset, BH19 1QQ
+Upper Tribunal Judge Elizabeth Cooke
+Determination by written representations
+© CROWN COPYRIGHT 2024
+2
+The following cases are referred to in this decision:
+A1 Properties (Sunderland) Ltd v Tudor studios RTM Company Limited [2024] UKSC 27
+Mannai Investment Co Ltd v Eagle Star Life Assurance Co Ltd [1997] UKHL 19
+Mooney v Whiteland [2023] EWCA Civ 67
+The Beaches Management Ltd v Furbear and others [2024] UKUT 180 (LC)
+Wyldecrest Parks (Management) Ltd v Kenyon and others [2017] UKUT 28 (LC)
+Wyldecrest Parks Ltd v Truzzi-Franconi and others [2020] UKUT 142 (LC)
+3
+Introduction
+1. This is an appeal by Mr Martin Hampton against a decision of the First-tier Tribunal about the pitch fee for the mobile home where he lives with his wife Mrs Dawn Hampton at Cauldron Barn Farm Park, a site regulated by the Mobile Homes Act 1983. The respondent is the site owner.
+2. The appeal has been determined under the Tribunal’s written representations procedure; neither party has been legally represented.
+3. The appeal is about whether errors in a pitch fee review notice make it invalid, with the result that there is no increase in the pitch fee until a valid notice is served. The FTT decided that the notice in question was valid and that the pitch fee was to increase in line with the retail prices index, and the appellant has permission to appeal that decision.
+The legal background
+4. Section 1 of the Mobile Homes Act 1983 says:
+“(1) This Act applies to any agreement under which a person (“the occupier”) is entitled–
+(a) to station a mobile home on land forming part of a protected site; and
+(b) to occupy the mobile home as his only or main residence.”
+5. Cauldron Barn Farm Park is a protected site as defined by section 1(2) of the Caravan Sites Act 1968. The appellant and his wife are entitled to live in their mobile home at 36 Cauldron Barn Farm Park by virtue of an agreement dated 18 April 2018. A protected site has to be licensed, and the respondent holds the site licence for Cauldron Barn Farm Park, for which it pays an annual fee to the local authority.
+6. The 1983 Act sets out terms that are to be implied in all the agreements it regulates, one of which is that “The occupier shall … pay the pitch fee to the owner” (Schedule 1, Chapter 2, paragraph 21); the pitch fee is defined in paragraph 29 of Schedule 1, Chapter 2, as follows:
+““pitch fee” means the amount which the occupier is required by the agreement to pay to the owner for the right to station the mobile home on the pitch and for use of the common areas of the protected site and their maintenance, but does not include amounts due in respect of gas, electricity, water and sewerage or other services, unless the agreement expressly provides that the pitch fee includes such amounts”
+7. Paragraph 16 of Schedule 1 to the 1983 Act says this:
+“16. The pitch fee can only be changed in accordance with paragraph 17, either—
+(a) with the agreement of the occupier, or
+(b) if the [FTT], on the application of the owner or the occupier, considers it reasonable for the pitch fee to be changed and makes an order determining the amount of the new pitch fee.”
+4
+8. Paragraph 17 reads, so far as relevant:
+“17.(1) The pitch fee shall be reviewed annually as at the review date.
+(2) At least 28 clear days before the review date the owner shall serve on the occupier a written notice setting out his proposals in respect of the new pitch fee.
+(2A) In the case of a protected site in England, a notice under subparagraph (2) which proposes an increase in the pitch fee is of no effect unless it is accompanied by a document which complies with paragraph 25A.
+(3) If the occupier agrees to the proposed new pitch fee, it shall be payable as from the review date.
+(4) If the occupier does not agree to the proposed new pitch fee—
+(a) the owner or (in the case of a protected site in England) the occupier] may apply to the [FTT] for an order under paragraph 16(b) determining the amount of the new pitch fee;
+(b) the occupier shall continue to pay the current pitch fee to the owner until such time as the new pitch fee is agreed by the occupier or an order determining the amount of the new pitch fee is made by the [FTT] under paragraph 16(b)…”
+9. So the site owner can only change the pitch fee by following the procedure set out in paragraph 17, which requires that he serve on the occupier a pitch fee review notice together with a pitch fee review form complying with paragraph 25A. The two can be combined in one document (The Beaches Management Ltd v Furbear and others [2024] UKUT 180 (LC)), but in the present case they were two separate documents, the notice being a letter to the appellant and Mrs Hampton, enclosing the form.
+10. Paragraph 17 refers to the review date, which is the date specified in the agreement for the pitch fee to be reviewed each year; the appellant’s agreement set it at 1 January.
+11. The pitch fee review notice, as a written notice given pursuant to the site owner’s agreement with the occupier, should comply with the provisions of paragraph 26(3) of schedule 1 to the 1983 Act, which reads as follows:
+“(3) Where in accordance with the agreement the owner gives any written notice to the occupier or (as the case may be) a qualifying residents' association, the notice must contain the following information—
+(a) the name and address of the owner; and
+(b) if that address is not in England or Wales, an address in England or Wales at which notices (including notices of proceedings) may be served on the owner.
+12. Paragraph 26(4) explains what is to happen if the notice does not contain that information:
+“(4) Subject to sub-paragraph (5) below, where—
+(a) the occupier or a qualifying residents' association receives such a notice, but
+5
+(b) it does not contain the information required to be contained in it by virtue of sub-paragraph (3) above,
+the notice shall be treated as not having been given until such time as the owner gives the information to the occupier or (as the case may be) the association in respect of the notice.”
+13. Paragraph 25A, which sets out the requirements for the pitch fee review form, was amended in July 2023 but the version in force at the date relevant to this appeal said this, so far as relevant: “25A. (1) The document referred to in paragraph 17(2A) and (6A) must— (a) be in such form as the Secretary of State may by regulations prescribe, (b) specify any percentage increase or decrease in the retail prices index calculated in accordance with paragraph 20(A1), (c) explain the effect of paragraph 17, (d) specify the matters to which the amount proposed for the new pitch fee is attributable …”
+14. As paragraph 25A(1)(a) indicates, there is a prescribed form for the pitch fee review notice; the current regulations are the Mobile Homes (Pitch Fees) (Prescribed Form) (England) Regulations 2023, but at the date relevant to this appeal they were the Mobile Homes (Pitch Fees) (Prescribed Form) (England) Regulations 2013 which contains the prescribed form (which the respondent used).
+15. So much for the formalities. As to the pitch fee itself, paragraph 20 of Schedule 1, Chapter 2 to the 1983 Act provided, at the time relevant to this appeal, that “unless this would be unreasonable having regard to paragraph 18(1), there is a presumption that the pitch fee shall increase or decrease by a percentage which is no more than any percentage increase or decrease in the retail prices index”. Since July 2023 instead of “retail prices index” the paragraph refers to the “consumer process index”. Paragraph 18(1) sets out various matters such as deterioration in the site since the last pitch fee review or (in certain circumstances) improvements. If the FTT determines that it is reasonable for the pitch fee to change, and that the presumption in favour of increase or decrease by the RPI is displaced, then it will make its own decision as to the appropriate increase or decrease in the pitch fee.
+The factual background
+16. On 17 November 2022 the respondent sent to the appellant and his wife a pitch fee review notice and a pitch fee review form, in order to increase the rent at the next review date which was 1 January 2023. The notice was addressed to:
+“Mr Martin Hampton Mrs Dawn Maria Hampton
+36 Cauldron Barn Farm
+Cauldron Barn Farm Park
+Swanage BH19 1QQ”
+17. The pitch fee review form was in the form prescribed by the regulations. Box 2 of the printed form is headed “Section 2: Proposed new pitch fee”, and in that box the respondent wrote:
+6
+“We propose to increase the monthly pitch fee for 36 Cauldron Barn Farm, Cauldron Barn Farm Park.”
+18. The form went on to say that the current pitch fee was £213.85 and that the proposed new fee was £244.31. In Section 4, which sets out the calculation of the new pitch fee, it said:
+“The proposed new pitch fee has been calculated as (A)+ (B) + (C) – (D) where:
+(A) is the current pitch fee of £213.85
+(B) is the Retail Prices Index (RPI) adjustment of £30.31 calculated from an increase of 14.2%
+(C) is the recoverable costs of £0.53
+(D) is the relevant deduction of -£0.38”
+19. 14.2% was the correct figure for the RPI increase. The form went on the specify what the “recoverable cost” was, namely the annual licence fee of £252 divided across 52 mobile homes; and it is said that the deduction of .38p was the “previous year’s recoverable cost”. So the increase has been calculated by deducting 38p from the current fee, adding a 14.2% increase, and then adding 53p by way of a share of the site licence fee, which does indeed yield £244.31.
+The FTT’s decision
+20. The appellant and Mrs Hampton did not agree the proposed new pitch fee, and the respondent applied to the FTT for a determination. The FTT conducted a hearing and considered the appellant and Mrs Hampton’s objections. The two points relevant to the appeal are as follows.
+21. First, the appellant argued that the pitch fee review notice and form were invalid and of no effect because they gave the wrong address. The FTT said this:
+“33. Mr Hampton suggested the notice was invalid. He suggested the address given on the notice was not the correct postal address. He suggested that the address is not “Cauldron Barn Farm” but “Cauldron Barn Park Farm”.
+34. We find that Mr Hampton accepts the notice was received. Further he seems to have always understood this related to the Pitch his home occupied. We have taken account of the Licence [12] which refers to the address of the site as “Cauldron Barn Farm”. We find the address used is accurate and that even if any error this does not invalidate the notice.”
+22. Second, the appellant challenged the calculation of the increase in the pitch fee. The FTT said:
+“36. It appears that in previous years the costs of licensing had been included. The Applicant proposed to deduct these sums and then add back in the actual cost of the licence fee after the calculation of the RPI increase. The Applicant said this
+7
+was done as the number of homes on the site was changing and so this may in the future benefit the Respondent as their share of the licence fee would be less.
+37. We were satisfied that the notice explained the method of calculation. We do not however accept the calculation was correct. We accept the Applicant may seek to recover the licence fee but we are not satisfied that their methodology is correct. Having added in the licence fee in our judgment unless they are suggesting there is a significant change then no deduction or addition for this can be made. The Applicant did not seek to include any additional deduction or addition.
+38. We find that the notice was not invalid for this reason as we are satisfied that the Notice set out the calculation adopted. Simply because we do not agree the calculation does not in our judgment invalidate the notice.
+23. The FTT rejected a number of arguments to the effect that the amenity of the site had deteriorated and found that there was nothing to displace the presumption that the pitch fee would rise in line with the RPI. The calculation was simple: £231.85 + 14.2% = £244.22
+The appeal
+24. The FTT gave permission to appeal, and in its directions of 14 February 2024 this Tribunal summarised the grounds of appeal as follows:
+“Did the pitch fee review notice given to Mr and Mrs Hampton on 17 November 2022 give the owner the right to a new pitch fee at the level later determined by the FTT, or was the notice of no effect either because of a mistake in stating the address of the pitch, or because of a mistake in the way in which the owner had set out its calculation of the new pitch fee?
+25. I believe that the references there to the pitch fee review notice should be read as referring to both the notice and the form, since the error in the address occurred in both, and since the calculation of the new fee was in the form and rather than the notice. It is convenient to divide the grounds of appeal into two points: (1) were the notice and form of no effect because of a mistake in the address of the pitch, and (2) was the form of no effect because of a mistake in the way the respondent had set out its calculations?
+The wrong address
+26. The FTT recorded the appellant’s argument that the address given in the pitch fee review notice was wrong, and that the address of the pitch is “36 Cauldron Barn Farm Park”, not “36 Cauldron Barn Farm”, but found that the address was correct; it also found that if the address was wrong then the notice and form was nevertheless valid.
+27. I do not know whether the FTT intended to grant permission to appeal its factual finding that the address set out by the respondent in the pitch fee notice and in the form was correct. It does seem likely that the appellant is right about the address; in written submissions in
+8
+the appeal he has provided a screen shot of the Royal Mail Postcode Finder which identifies the pitch as 36 Cauldron Barn Farm Park. Since the mobile home site is known as Cauldron Barn Farm Park it makes sense for the pitches to be identified by a number followed by the name of the site. And the agreement of 18 April 2018 identifies the pitch as 36 Cauldron Barn Farm Park.
+28. This is a review, not a rehearing where I can hear evidence and make findings of fact. Nevertheless I proceed on the basis that the address of the pitch is 36 Cauldron Barn Farm Park, and I take the issue in the appeal to be whether the FTT was right in saying that the incorrect address did not invalidate the pitch fee review notice (nor, by implication, the pitch fee review form). For the reasons set out below I find that the FTT was right, which means that there is no need to consider whether the FTT’s finding of fact was accurate since that outcome means that the notice and the review form were valid in any event.
+29. The appellant has never denied that he received the notice, which was hand delivered, and has never suggested that he or his wife were in any way confused or misled by it. Indeed, it is impossible to see how anyone could have been in the circumstances. Both the notice and the form were clearly intended to refer to the appellant’s pitch at Cauldron Barn Farm Park. The appellant suggests that the mistake could cause problems in the event of sale of the mobile home, but that is far-fetched; even if the mistake were noticed, a simple enquiry of the site owner would confirm the correct position. The appellant has referred to other decisions of the First-tier Tribunal, but they are not binding on the Tribunal and do not appear to be comparable in any event. One refers to a failure to use the prescribed form, another to delay in applying to the FTT. Neither is relevant to the circumstances of this appeal.
+30. From a commonsense point of view it is difficult to see how a minor error in the address of the property on the notice and the form, which did not mislead or inconvenience anyone, could possibly render the notice and form invalid. It would be troubling if complex legal analysis were required in order to reach the same conclusion.
+31. The first thing to say is that the notice and form do not contravene any statutory requirements and there is no error in the meeting of the statutory requirements. There is nothing to say that the notice or the form must set out the address of the pitch; contrast the requirement in paragraph 26(3) of Schedule 1 to the 1983 Act which requires any notice to contain the site owner’s name and address (paragraph 11 above). Obviously the pitch fee review notice and form will normally contain the address of the pitch but there is no statutory requirement that they do so. Accordingly the case law that is concerned with failure to follow statutory requirements is not relevant and there is no need to refer to the Supreme Court’s decision in A1 Properties (Sunderland) Ltd v Tudor studios RTM Company Limited [2024] UKSC 27 which was about with the failure by a right to manage company to serve its claim notice on one of the landlords in the building, contrary to the provisions of the Commonhold and Leasehold Reform Act 2002.
+32. In the present case the requirements of the statute and the regulations were followed, but the respondent got the address wrong – albeit only slightly wrong and in a way that could not have misled anyone. As the Court of Appeal said in Mooney v Whiteland [2023] EWCA Civ 67 (Males LJ at paragraph 28), such notices are treated as valid and effective if they “would nevertheless be understood as doing so by a reasonable recipient of the
+9
+notice with knowledge of the background circumstances”. The leading authority is Mannai Investment Co Ltd v Eagle Star Life Assurance Co Ltd [1997] UKHL 19, where a tenant had served notice to determine two leases but got the termination date wrong by one day. The House of Lords held that the notices had to be considered objectively, by asking how a reasonable recipient would have understood them, in their context; the purpose of the notices was to inform the landlord of the tenant's decision to bring the leases to an end in accordance with the terms of the lease, and a reasonable recipient with knowledge of the terms of the leases and the anniversary date would have been left in no doubt that the tenant wished to determine the leases on the third anniversary (13th January 1995) but had wrongly described this as 12th January 1995. The notices were effective to determine the leases
+33. This pitch fee review notice and form were addressed to the appellant and his wife and served on them at their mobile home, referring to their mobile home with the correct address save for the omission of the word “Park” but using the correct name of the site itself on the next line of the address. The reasonable recipient of the notice and the form would undoubtedly understand them to refer to the appellant’s mobile home and would have been left in no doubt that the respondent wanted to raise the pitch fee from the next review date, and that the new pitch fee proposed was £244.31. The recipient was told how the respondent calculated the increased fee, so that he could work out whether or not it was correctly calculated. The prescribed form was used with its extensive prescribed information. The notice fulfilled the purpose for which it was given.
+34. Accordingly I see no reason why the notice or the form, could be invalidated by the error in the address. This ground of appeal fails.
+The wrong calculation
+35. The pitch fee for 2022 was £213.85, which included 38p representing a share of the site licence. The site owner is entitled to include the cost of the site licence in the pitch fee when that fee is first imposed upon it (Wyldecrest Parks (Management) Ltd v Kenyon and others [2017] UKUT 28 (LC)), but thereafter it should not be separated out as a separate sum; the fee from 2022 including whatever sum represents the site licence cost is simply the pitch fee which is then subjected as a whole to the RPI increase if the statutory presumption is not displaced. Accordingly the calculation in the pitch fee review notice (paragraph 18 above) was not quite right and the FTT corrected it (paragraph 23 above).
+36. The appellant says that the calculation in the pitch fee was incomprehensible until it was explained in a subsequent letter from the respondent, and says that a document “the purpose of which is solely to indicate a wholly understandable amount of a charge payable with respect to a specific property” is obviously invalidated if it the charge stated in it is incorrect.
+37. I do not agree that the calculation could not be understood. The FTT understood it; I understood it before I read the explanatory letter. I agree that it is at first sight puzzling, but once it is seen that the few pence subtracted and added refer to the site licence then it is obvious what has been done.
+10
+38. Quite simply the respondent got the calculation wrong. Does that invalidate the notice? I am truly puzzled as to why the appellant says it did. The notice actually requires the site owner to set out recoverable costs and relevant deductions; there is nothing in the statute to suggest that if these are incorrect the notice is invalidated. The respondent got it wrong and the FTT put it right. The respondent made an error of law, rather than just an arithmetical error, because it used the wrong method, but the notice it did not thereby fail to meet the statutory requirements for the form of the pitch fee review notice – as it would have done had it, for example, got the review date wrong or stated a rate of increase other than the RPI.
+39. Similarly in Wyldecrest Parks Ltd v Truzzi-Franconi and others [2020] UKUT 142 (LC) the site owner and the residents disagreed about the calculation of the pitch fee increase. The FTT’s decision was appealed, and this Tribunal found that the site owner’s calculation was incorrect and substituted the correct calculation. It was not suggested by anyone that the incorrect calculation invalidated the notice so that there could be no increase at all; rather, the outcome of the proceedings was that there was an increase, calculated correctly.
+40. That is the case here. There is no substance at all in this ground of appeal and it fails.
+41. I would add that the same result would follow if the calculation really was incomprehensible, for example if the figures did not add up – that would simply be a different form of mistake.
+Conclusion
+42. The appeal fails on both grounds and the pitch fee for 2023 was £244.22 as the FTT decided.
+Upper Tribunal Judge Elizabeth Cooke
+29 August 2024
+Typographical error corrected on 2 September 2024
+Right of appeal
+Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision. The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal’s decision on costs is sent to the parties). An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law
+11
+in the decision, and state the result the party making the application is seeking. If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.
